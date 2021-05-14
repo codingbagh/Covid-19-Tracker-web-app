@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19 Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+    <div id="show" class="show">
+    <div class="container">
+<div class="covidheader-container">
+    <h1> Country  </h1>
+</div>
+
+
+<div class="input-container">
+    <input type="text"  id="input" placeholder="Country Name Here..." required>
+</div>
+
+
+
+
+
+
+<div class="covidbutton">
+    
+    
+    <button id="app">Track</button></div>
+</form>
+<div class="vid-container">
+  <video src="assets/vid.mp4" autoplay loop />
+</div>
+
+<div class="overlay"></div>
+
+<div class="covid-image"><img src="assets/covid.jpg" alt=""></div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<!--working area-->
+
+
+<div id="hide" class="hide">
+<div class="container">
+    <div class="covidheader-container">
+        <h1 id="country"></h1>
+    </div>
+    
+    <div class="results">
+    
+    <div class="total">Confirmed Cases: <span id="total"></span></div>
+    <div class="active">Active Cases: <span id="active"> </span></div>
+    
+    <div class="Recovery" >Recovered: <span id="Recovery"> </span></span></div>
+    
+    <div  class="Death">Death: <span id="Death"></span></div>
+
+    <div  class="Death">Last Date Updated: <span id="Date"> </span></div>
+    
+    <button onclick="track()" class="btn">Track Again</button>
+    
+    
+    
+    </div>
+    
+    
+    <footer>
+        <div class="footer">  Made By <a href="https://web.facebook.com/Boat-Designs-And-Web-development-Services-110151474102510">CodingBa</a></div>
+       
+    </footer>
+    
+    
+    
+        
+        
+        
+    <div class="vid-container">
+      <video src="assets/vid.mp4" autoplay loop />
+    </div>
+    
+    <div class="overlay"></div>
+    
+    <div class="covid-image"><img src="assets/covid.jpg" alt=""></div>
+    
+        </div>
+</div>
+    
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
